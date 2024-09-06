@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <a href="#" class="close-btn">&times;</a>
+        <h2>Cadastrar</h2>
+        <form>
+            <label for="usuario">Usuário</label>
+            <input type="text" id="usuario" name="usuario" required>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="confSenha">Confirmar senha</label>
+            <input type="password" id="confSenha" name="confSenha" required>
+
+            <div class="exibir-senha">
+                <input type="checkbox" id="mostrarSenha">
+                <label for="mostrarSenha">Exibir senha</label>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+
+            <p>Possui uma conta? <a href="login.html">Entrar no sistema</a></p>
+        </form>
+    </div>
+</body>
+</html>
